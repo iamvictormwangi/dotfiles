@@ -1,0 +1,11 @@
+# GIMP action-history
+
+(history-item "tools-free-select" 0)
+(history-item "windows-display-0001" 0)
+(history-item "layers-new-group" 1)
+(history-item "file-open" 0)
+(history-item "brushes-edit" 0)
+(history-item "brushes-duplicate" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

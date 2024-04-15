@@ -1,0 +1,107 @@
+# vim: ft=cfg
+
+[global]
+    monitor = 0
+    follow = keyboard
+
+    origin = top-right
+		width = (0, 683)
+		height = 375
+		offset = 10x27
+
+		notification_limit = 3
+    indicate_hidden = true
+
+    transparency = 0
+
+    separator_height = 4
+		separator_color = "#484848"
+    padding = 8
+    horizontal_padding = 8
+
+		frame_width = 2
+
+		sort = true
+
+    idle_threshold = 60
+
+		font = FantasqueSansMono Nerd Font Mono 14
+
+    line_height = 0
+    markup = full
+
+    format = "<b>%s</b>\n\n%b"
+
+    # icon_path = /usr/share/icons/Adwaita/256x256/status/:/usr/share/icons/Adwaita/256x256/places:/usr/share/icons/Adwaita/256x256/legacy/:/usr/share/icons/Adwaita/256x256/mimetypes
+
+    alignment = left
+
+		history_length = 32
+		dmenu = "/usr/local/bin/dmenu -p dunst"
+    browser = "/usr/bin/xdg-open"
+    show_age_threshold = 60
+
+    always_run_script = true
+
+    title = Dunst
+    class = Dunst
+
+[urgency_low]
+    background = "#ebf7ee"
+    foreground = "#008d23"
+    frame_color = "#bee5c8"
+    timeout = 10
+
+[urgency_normal]
+    background = "#e3edf8"
+    foreground = "#004087"
+    frame_color = "#abcdf1"
+    timeout = 20
+
+[urgency_critical]
+    background = "#fcedea"
+    foreground = "#791600"
+    frame_color = "#f5c5bb"
+    timeout = 0
+
+
+# Rules
+[mail]
+	summary = "E-Mail"
+	script = dunst-email-sound
+
+[pacman]
+	summary = "Pacman"
+	script = dunst-heytackalook-sound
+
+[telegram]
+	summary = "*Telegram*"
+	script = dunst-newmessage-sound
+
+# FFMPEG
+[ffmpeg-end]
+	body = "*Record ended*"
+	script = dunst-done-sound
+
+[ffmpeg-start]
+	body = "*recording*"
+	script = dunst-ok-sound
+
+[battery-low]
+	summary = "Battery"
+	category = warn
+	script = dunst-pickmeup-sound
+
+[adapter-off]
+	summary = "Battery"
+	body = "*goes off-line*"
+	script = dunst-hmm-sound
+
+[adapter-on]
+	summary = "Battery"
+	body = "*goes on-line*"
+	script = dunst-itsmeagain-sound
+
+[kill]
+	summary = "Kill -9"
+	script = dunst-completed-sound
