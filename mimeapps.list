@@ -1,3 +1,5 @@
-
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
+
+[Added Associations]
+inode/directory=mpv.desktop;

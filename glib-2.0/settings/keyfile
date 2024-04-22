@@ -23,10 +23,10 @@ click-policy='single'
 
 [org/gnome/nautilus/window-state]
 maximized=false
-initial-size=(1010, 736)
+initial-size=(551, 727)
 
 [org/gtk/settings/file-chooser]
-window-position=(0, 74)
+window-position=(-51, -28)
 window-size=(1124, 822)
 date-format='regular'
 location-mode='path-bar'
@@ -54,9 +54,9 @@ interface-hide-on-startup=false
 interface-window-restore-enabled=true
 interface-window-x=10
 interface-window-y=29
-interface-window-w=551
+interface-window-w=1002
 interface-window-h=727
-interface-window-divider-pos=0
+interface-window-divider-pos=451
 graph-smooth-curves-enabled=true
 provider-lmsensors-enabled=true
 provider-nvctrl-enabled=true

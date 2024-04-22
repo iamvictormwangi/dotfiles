@@ -10,3 +10,10 @@ settings:
     global: white
   content.images:
     global: false
+  url.default_page:
+    global: https://www.bing.com/
+  url.searchengines:
+    global:
+      DEFAULT: https://www.bing.com/?q={}
+  url.start_pages:
+    global: https://www.bing.com/

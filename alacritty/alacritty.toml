@@ -1,0 +1,20 @@
+live_config_reload = true
+
+[window]
+title = "iamvictormwangi"
+
+[scrolling]
+history = 100000
+multiplier = 5
+
+[font]
+normal = { family = "Fira Code", style="regular"}
+size = 10
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
+
+

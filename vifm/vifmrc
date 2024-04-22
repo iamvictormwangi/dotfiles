@@ -16,8 +16,8 @@ colorscheme Default
 
 
 
-filextype {*.md}, nvim
-filextype {*.markdown}, nvim
+filextype {*.md}, emacs
+filextype {*.markdown}, emacs
 
 " Pdf
 filextype {*.pdf},<application/pdf> zathura %c %i &, apvlv %c, xpdf %c
